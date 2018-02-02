@@ -8,6 +8,7 @@
   <name>getting-started-tomcat Maven Webapp</name>
   <url>http://maven.apache.org</url>
 <<<<<<< HEAD
+<<<<<<< HEAD
   
   <!-- jsdhsdfdkfdkfdk -->
 
@@ -17,6 +18,9 @@
       <url>http://100.27.30.46:8081/artifactory/libs-release-local/</url>
     </repository>
   </distributionManagement>
+=======
+
+>>>>>>> 913a1cc... added files
 =======
 
 >>>>>>> 913a1cc... added files
@@ -41,6 +45,7 @@
               </configuration>
           </plugin>
 <<<<<<< HEAD
+<<<<<<< HEAD
         
         <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -52,6 +57,8 @@
           <releaseProfiles>release</releaseProfiles>
         </configuration>
       </plugin>
+=======
+>>>>>>> 913a1cc... added files
 =======
 >>>>>>> 913a1cc... added files
       </plugins>
