@@ -7,6 +7,7 @@
   <version>1.0-SNAPSHOT</version>
   <name>getting-started-tomcat Maven Webapp</name>
   <url>http://maven.apache.org</url>
+<<<<<<< HEAD
   
   <!-- jsdhsdfdkfdkfdk -->
 
@@ -16,6 +17,9 @@
       <url>http://100.27.30.46:8081/artifactory/libs-release-local/</url>
     </repository>
   </distributionManagement>
+=======
+
+>>>>>>> 913a1cc... added files
 
   <dependencies>
       <!-- http://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
@@ -36,6 +40,7 @@
                   <warName>ROOT</warName>
               </configuration>
           </plugin>
+<<<<<<< HEAD
         
         <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -47,6 +52,8 @@
           <releaseProfiles>release</releaseProfiles>
         </configuration>
       </plugin>
+=======
+>>>>>>> 913a1cc... added files
       </plugins>
   </build>
 </project>
