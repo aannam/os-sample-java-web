@@ -46,10 +46,6 @@
           <releaseProfiles>release</releaseProfiles>
         </configuration>
       </plugin>
-=======
->>>>>>> 913a1cc... added files
-=======
->>>>>>> 913a1cc... added files
       </plugins>
   </build>
 </project>
