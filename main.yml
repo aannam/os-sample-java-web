@@ -23,8 +23,3 @@
       service:
          name: tomcat
          state: started
-         
-         
-         
-//test
-   
