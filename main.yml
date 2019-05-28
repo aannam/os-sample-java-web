@@ -14,14 +14,14 @@
       
   - name: download war file into tomcat/webapps
     get_url: 
-       url: https://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/sample.war
-       dest: /usr/share/tomcat8/webapps
+       url: http://3.81.202.128:8080/job/Maven-Build/ws/target/ROOT.war
+       dest: /usr/share/tomcat/webapps
     notify: start tomcat
           
   handlers:
     - name: start tomcat
       service:
-         name: tomcat8
+         name: tomcat
          state: started
          
          
