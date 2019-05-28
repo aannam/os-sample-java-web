@@ -14,7 +14,7 @@
       
   - name: download war file into tomcat/webapps
     get_url: 
-       url: http://3.81.202.128:8080/job/Maven-Build/ws/target/ROOT.war
+       url: http://3.81.202.128:8080/job/Ansible/ws/target/ROOT.war
        dest: /usr/share/tomcat/webapps
     notify: start tomcat
           
